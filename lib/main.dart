@@ -1,8 +1,6 @@
 import 'package:contact_app/contact_detail_view.dart';
 import 'package:flutter/material.dart';
 
-import 'home_view.dart';
-
 void main() {
   runApp(const ContactApp());
 }
@@ -16,9 +14,9 @@ class ContactApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Contact App',
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.blue,
       ),
-      home: ContactDetailView(),
+      home: const ContactDetailView(),
     );
   }
 }
